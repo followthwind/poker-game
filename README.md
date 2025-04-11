@@ -7,3 +7,5 @@ in this project i learn tech Stacks for full-stack web and learning new algorith
 i wish this project can run smoothly as this will be my first portofolio that can be accessed by many.
 
 Thanks for coming! 
+
+![image](https://github.com/user-attachments/assets/42405139-efa9-444b-a8ba-9bf62abc3a1a)
