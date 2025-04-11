@@ -8,5 +8,5 @@ i wish this project can run smoothly as this will be my first portofolio that ca
 
 Thanks for coming! 
 
-![pokerweb](https://github.com/user-attachments/assets/29f3f3b4-956f-475a-8028-9e88894dba9d)
+
 ![pokerweb](https://github.com/user-attachments/assets/3fec9401-658f-469e-ad6d-fb547018b4f6)
