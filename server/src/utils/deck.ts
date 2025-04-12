@@ -27,6 +27,32 @@ export const shuffleDeck = (deck: Card[]): Card[] => {
   return shuffled;
 }
 
-export const dealCards =  (deck: Card[], numplayers: number, cardsPerPlayer: number = 2):{playerCards: Card[][], remainingDeck: Card[]} => {
-  
+export const dealCards =  (deck: Card[], numPlayers: number, cardsPerPlayer: number = 2):{playerCards: Card[][], remainingDeck: Card[]} => {
+  const playerCards : Card[][] = Array.from({length: numPlayers}, () => []);
+  const remainingDeck = [...deck];
+
+  // dealing cards to each playerCards
+  for (let i = 0; i < cardsPerPlayer; i++) {
+    for (let j = 0; j < numPlayers; j++) {
+      if (remainingDeck.length > 0) {
+        const card = remainingDeck.pop()!;
+        playerCards[j].push(card);
+      }
+    }
+  } 
+
+  return {playerCards, remainingDeck};
+};
+
+export const dealCommunityCards = (deck: Card[], count: number) : {communityCards: Card[], remainingDeck: Card[]} => {
+  const remainingDeck = [...deck];
+  const communityCards : Card[] = [];
+
+  for (let i = 0 ; i < count; i++) {
+    if (remainingDeck.length > 0) {
+      communityCards.push(remainingDeck.pop()!);
+    }
+  }
+
+  return {communityCards, remainingDeck};
 }
