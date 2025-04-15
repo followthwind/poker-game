@@ -11,4 +11,5 @@ i wish this project can run smoothly as this will be my first portofolio that ca
 Thanks for coming! 
 
 
-![pokerweb](https://github.com/user-attachments/assets/3fec9401-658f-469e-ad6d-fb547018b4f6)
+
+![imagepokwerweb](https://github.com/user-attachments/assets/20d0bc50-df12-40ad-8c72-3a221e24009c)
