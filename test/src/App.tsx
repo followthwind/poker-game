@@ -1,11 +1,10 @@
-import './App.css'
+import './index.css'
 import Card3D from './components/Card3d'
-import FeatureSection from './components/FeatureSection'
+import './App.css'
+import FeatureSection from './components/FeatureSection';
 
 function App() {
-
-  return (
-    <>
+  return(
     <div className = "bg-black text-white min-h-screen font-sans">
       <header className='text-center pt-12'>
         <h1 className='text-4xl font-bold'>Welcome to Poker</h1>
@@ -17,8 +16,7 @@ function App() {
 
       <FeatureSection/>
     </div>
-    </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
