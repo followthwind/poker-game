@@ -1,5 +1,8 @@
 Proyek ini adalah permainan Texas Hold'em Poker berbasis web yang dibangun menggunakan stack modern dan fokus pada pengalaman bermain yang imersif dan fleksibel. Proyek ini masih dalam tahap pengembangan dan akan mencakup berbagai fitur menarik serta teknologi canggih.
 
+
+![imagepokwerweb](https://github.com/user-attachments/assets/20d0bc50-df12-40ad-8c72-3a221e24009c)
+
 🎯 Fitur yang Akan Diimplementasikan
 🎨 1. Frontend Interaktif 3D dan Responsif
 3D UI dengan Three.js untuk tampilan kartu dan elemen game.
@@ -44,4 +47,3 @@ Auth	Firebase Auth, JWT
 Hosting	Raspberry Pi 5
 
 
-![imagepokwerweb](https://github.com/user-attachments/assets/20d0bc50-df12-40ad-8c72-3a221e24009c)
