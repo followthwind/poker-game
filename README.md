@@ -1,15 +1,47 @@
-This is the project of Poker game on web using stack MERN but typscript (i don't know which one better but it makes me learn typscript)
+Proyek ini adalah permainan Texas Hold'em Poker berbasis web yang dibangun menggunakan stack modern dan fokus pada pengalaman bermain yang imersif dan fleksibel. Proyek ini masih dalam tahap pengembangan dan akan mencakup berbagai fitur menarik serta teknologi canggih.
 
-the final output will be the game can be played multiplayer on browser or single player using bot, and the user will have an account, or maybe there will be a guest system for someone who doesn't want to play it with an account and just trying, and i want to apply chat gpt or any AI to be bot, so the player will be playing againts adavnced AI instead just regular bot.
+🎯 Fitur yang Akan Diimplementasikan
+🎨 1. Frontend Interaktif 3D dan Responsif
+3D UI dengan Three.js untuk tampilan kartu dan elemen game.
 
-the game will be accesable trhough internet
+Frontend responsif dan ringan menggunakan React.js dan Vite.
 
-in this project i learn tech Stacks for full-stack web and learning new algorithm for playing poker, making bots or AI, and connectiong bot to AI.
+Lazy loading untuk efisiensi performa.
 
-i wish this project can run smoothly as this will be my first portofolio that can be accessed by many.
+Auto-sliding untuk elemen tertentu di UI (misalnya carousel atau notifikasi).
 
-Thanks for coming! 
+Kompatibel di berbagai perangkat.
 
+🕹️ 2. Fitur Game
+Bermain Texas Hold'em Poker:
+
+Bersama teman (multiplayer via Socket.IO).
+
+Melawan bot (simulasi offline).
+
+Melawan AI (ChatGPT-integrated AI opponent).
+
+Bisa bermain dengan:
+
+Akun terverifikasi (Firebase Auth + JWT).
+
+Sebagai Guest (tanpa login).
+
+Leaderboard global.
+
+History permainan disimpan di database (MongoDB).
+
+💻 3. Deployment
+Website ini akan di-hosting di Raspberry Pi 5 sebagai server lokal pribadi atau self-hosted server online.
+
+🛠️ Teknologi yang Digunakan
+
+Layer	Stack
+Frontend	React.js, Vite, TypeScript, Three.js
+Backend	Express.js, Node.js, Socket.IO
+Database	MongoDB
+Auth	Firebase Auth, JWT
+Hosting	Raspberry Pi 5
 
 
 ![imagepokwerweb](https://github.com/user-attachments/assets/20d0bc50-df12-40ad-8c72-3a221e24009c)
