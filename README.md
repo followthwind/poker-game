@@ -1,15 +1,56 @@
-This is the project of Poker game on web using stack MERN but typscript (i don't know which one better but it makes me learn typscript)
-
-the final output will be the game can be played multiplayer on browser or single player using bot, and the user will have an account, or maybe there will be a guest system for someone who doesn't want to play it with an account and just trying, and i want to apply chat gpt or any AI to be bot, so the player will be playing againts adavnced AI instead just regular bot.
-
-the game will be accesable trhough internet
-
-in this project i learn tech Stacks for full-stack web and learning new algorithm for playing poker, making bots or AI, and connectiong bot to AI.
-
-i wish this project can run smoothly as this will be my first portofolio that can be accessed by many.
-
-Thanks for coming! 
 
 
 
 ![imagepokwerweb](https://github.com/user-attachments/assets/20d0bc50-df12-40ad-8c72-3a221e24009c)
+
+# 🃏 Poker Web Game
+
+This project is a **Texas Hold'em Poker web game** designed to deliver a fun, flexible, and modern gaming experience. It can be played with friends, against bots, or even against an AI (ChatGPT). The website will be hosted on a **Raspberry Pi 5**.
+
+---
+
+## 🚀 Planned Features
+
+### 🎨 3D Interactive & Responsive Frontend
+- 3D card and UI elements using **Three.js**.
+- **Responsive and lightweight frontend** with **lazy loading**.
+- **Auto-sliding UI elements** for components like notifications or carousels.
+- Intuitive design that supports multiple screen sizes.
+
+### 🕹️ Game Features
+- Game modes:
+  - **Multiplayer** (play with friends) via **Socket.IO**.
+  - **Play against bots** (offline).
+  - **Play against AI** (ChatGPT-integrated).
+- Play options:
+  - **Login with account** (using **Firebase Auth + JWT**).
+  - **Play as a Guest** (no login required).
+- **Global leaderboard**.
+- **Game history** saved in **MongoDB**.
+
+### 🌐 Deployment
+- The website will be **hosted on a Raspberry Pi 5**, either for local or public access (depending on configuration).
+
+---
+
+## 🛠️ Tech Stack
+
+| Category     | Technology                            |
+|--------------|----------------------------------------|
+| Frontend     | React.js, Vite, TypeScript, Three.js   |
+| Backend      | Node.js, Express.js, Socket.IO         |
+| Database     | MongoDB                                |
+| Authentication | Firebase Auth, JWT                   |
+| Hosting      | Raspberry Pi 5                         |
+
+---
+
+## 📌 Status
+🚧 In active development — features and documentation are subject to change.
+
+---
+
+## 📬 Contact
+For questions, collaboration, or bug reports, please reach out via email or create an issue in this repository.
+
+
