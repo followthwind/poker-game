@@ -1,4 +1,5 @@
 import './App.css'
+import Belajar from './components/Belajar'
 import Card3D from './components/Card3d'
 import FeatureSection from './components/FeatureSection'
 
@@ -6,7 +7,9 @@ function App() {
 
   return (
     <>
-    <div className = "bg-black text-white min-h-screen font-sans">
+
+    <Belajar/>
+    {/* <div className = "bg-black text-white min-h-screen font-sans">
       <header className='text-center pt-12'>
         <h1 className='text-4xl font-bold'>Welcome to Poker</h1>
         <p className='text-lg mt-2'>Play Texas Hold'em like never before</p>
@@ -16,7 +19,7 @@ function App() {
       </section>
 
       <FeatureSection/>
-    </div>
+    </div> */}
     </>
   )
 }
